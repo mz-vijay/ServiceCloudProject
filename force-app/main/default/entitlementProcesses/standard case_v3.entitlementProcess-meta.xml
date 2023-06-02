@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <description>Runs the standard SLA process for Case.</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Response to Customer</milestoneName>
+        <minutesToComplete>2</minutesToComplete>
+        <timeTriggers>
+            <actions>
+                <name>ChangePriorityToHigh</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>Escalate Case</milestoneName>
+        <minutesToComplete>5</minutesToComplete>
+        <timeTriggers>
+            <actions>
+                <name>Update_Status_Escalated</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-3</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>Close Case</milestoneName>
+        <minutesToComplete>5760</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <name>Standard Case</name>
+    <versionMaster>5525i000009XtVO</versionMaster>
+    <versionNumber>3</versionNumber>
+</EntitlementProcess>
