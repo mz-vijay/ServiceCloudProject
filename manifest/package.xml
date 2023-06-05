@@ -4,7 +4,7 @@
         <members>*</members>
         <name>ApexClass</name>
     </types>
-    <types>
+   <!-- <types>
     <members>Case.Chat</members>
     <name>RecordType</name>
   </types>
@@ -13,7 +13,6 @@
     <name>Queue</name>
 </types>
 
-<!--Metadata Related to Chat-->
 
 <types>
         <members>*</members>
@@ -54,7 +53,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>ApexTrigger</name>
+        <name>ApexTrigger</name> -->
     
     <version>57.0</version>
 </Package>
