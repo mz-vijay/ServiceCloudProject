@@ -40,6 +40,14 @@ node {
 			}else{
 			   rmsg = bat returnStatus: true, script: "sfdx force:source:deploy --checkonly --manifest manifest/package.xml -u ${HUB_ORG}"
 			}
+            if(rc != 0) { error 'Validate Failed' }
+
+            if (isUnix()) {
+				rmsg = sh returnStatus: true, script: "sfdx force:source:deploy  --manifest manifest/package.xml -u ${HUB_ORG}"
+			}else{
+			   rmsg = bat returnStatus: true, script: "sfdx force:source:deploy  --manifest manifest/package.xml -u ${HUB_ORG}"
+			}
+
 			println('rmsg='+rmsg)
 
             println('Hello from a Job DSL script!')
