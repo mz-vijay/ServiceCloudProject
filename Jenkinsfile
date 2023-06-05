@@ -36,15 +36,14 @@ node {
 			
 			// need to pull out assigned username
 			if (isUnix()) {
-				rmsg = sh returnStdout: true, script: "sfdx force:source:deploy --checkonly --manifest manifest/package.xml -u ${HUB_ORG}"
+				rmsg = sh returnStatus: true, script: "sfdx force:source:deploy --checkonly --manifest manifest/package.xml -u ${HUB_ORG}"
 			}else{
-			   rmsg = bat returnStdout: true, script: "sfdx force:source:deploy --checkonly --manifest manifest/package.xml -u ${HUB_ORG}"
+			   rmsg = bat returnStatus: true, script: "sfdx force:source:deploy --checkonly --manifest manifest/package.xml -u ${HUB_ORG}"
 			}
-			  
-            printf rmsg
+			println('rmsg='+rmsg)
+
             println('Hello from a Job DSL script!')
             println('rmsg='+rmsg)
-                        println('rmsg='+rmsg)
 
         }
     }
