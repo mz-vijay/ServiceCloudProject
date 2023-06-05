@@ -5,13 +5,16 @@
         <name>ApexClass</name>
     </types>
     <types>
-    <members>*</members>
+    <members>Case.Chat</members>
     <name>RecordType</name>
   </types>
   <types>
     <members>*</members>
     <name>Queue</name>
 </types>
+
+<!--Metadata Related to Chat-->
+
 <types>
         <members>*</members>
         <name>PresenceUserConfig</name>
@@ -49,23 +52,9 @@
         <members>*</members>
         <name>ApexPage</name>
     </types>
-    
-    
     <types>
         <members>*</members>
         <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
+    
     <version>57.0</version>
 </Package>
