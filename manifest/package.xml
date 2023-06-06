@@ -8,6 +8,10 @@
         <members>*</members>
         <name>Profile</name>
     </types>
+     <types>
+     <members>*</members>
+     <name>PermissionSet</name>
+    </types>   
     
    <!-- <types>
     <members>Case.Chat</members>
