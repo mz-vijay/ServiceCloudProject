@@ -9,15 +9,20 @@
         <name>Profile</name>
     </types>
      <types>
-     <members>*</members>
+     <members>Knowledge Read</members>
+          <members>Chat Setup Flow</members>
      <name>PermissionSet</name>
     </types>   
     
-   <!-- <types>
+    <types>
     <members>Case.Chat</members>
     <name>RecordType</name>
   </types>
-  <types>
+   <types>
+    <members>*</members>
+    <name>Layout</name>
+</types>
+  <!--<types>
     <members>*</members>
     <name>Queue</name>
 </types>
