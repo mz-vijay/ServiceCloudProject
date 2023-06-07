@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Chat</fullName>
+    <fullName>Support</fullName>
     <active>true</active>
     <businessProcess>Case Record</businessProcess>
-    <label>Chat</label>
+    <label>Support</label>
     <picklistValues>
         <picklist>Origin</picklist>
         <values>
@@ -16,14 +16,14 @@
         </values>
         <values>
             <fullName>Web</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
         <picklist>PotentialLiability__c</picklist>
         <values>
             <fullName>No</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>Yes</fullName>
@@ -53,7 +53,7 @@
         </values>
         <values>
             <fullName>GC1040</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>GC1060</fullName>
@@ -108,7 +108,7 @@
         </values>
         <values>
             <fullName>Other</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>Performance</fullName>
@@ -119,7 +119,7 @@
         <picklist>SLAViolation__c</picklist>
         <values>
             <fullName>No</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>Yes</fullName>
@@ -142,7 +142,7 @@
         </values>
         <values>
             <fullName>Other</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>Structural</fullName>
