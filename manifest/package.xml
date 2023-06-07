@@ -17,6 +17,22 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Case.SendEmail</members>
+        <members>SendEmail</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Case.SendEmail</members>
+        <members>SendEmail</members>
+        <name>QuickAction</name>
+    </types>
+<types>
+        <members>Case_Support</members>
+        <members>Chat_Support</members>
+        <members>Customer_Support_Tier_2</members>
+        <name>Queue</name>
+    </types>
+    <types>
         <members>Case.Chat</members>
         <members>Case.Support</members>
         <members>Knowledge__kav.How_To</members>
