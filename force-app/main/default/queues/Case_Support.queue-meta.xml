@@ -4,8 +4,7 @@
     <name>Case Support</name>
     <queueMembers>
         <users>
-            <user>ameharecustomersupport@mindzcloud.com</user>
-            <user>customerservice@mindzcloud.com</user>
+            <user>skuckreja@mindzcloud.com</user>
         </users>
     </queueMembers>
     <queueRoutingConfig>Case_Queue_Routing_Config</queueRoutingConfig>
