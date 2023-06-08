@@ -5,6 +5,17 @@
     <businessProcess>Case Record</businessProcess>
     <label>Chat</label>
     <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Flight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Origin</picklist>
         <values>
             <fullName>Email</fullName>

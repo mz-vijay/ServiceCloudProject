@@ -65,6 +65,17 @@
         <members>Knowledge__kav-Knowledge Layout</members>
         <name>Layout</name>
     </types>
+     <types>
+        <members>Case_Queue_Routing_Config</members>
+                <members>Case_Queue_Routing_Config</members>
+                <members>Chat_Routing_Config</members>
+        <name>QueueRoutingConfig</name>
+    </types>
+    <types>
+        <members>Customer Services</members>
+        <name>Network</name>
+    </types>
+
     <version>56.0</version>
 </Package>
 
