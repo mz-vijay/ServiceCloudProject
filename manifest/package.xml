@@ -40,5 +40,9 @@
         <members>*</members>
         <name>AssignmentRules</name>
     </types>
+     <users>
+            
+            <user>*</user>
+        </users>
     <version>57.0</version>
 </Package>
