@@ -42,7 +42,8 @@
     </types>
      <users>
             
-            <user>*</user>
+        <members>*</members>
+                    <name>User</name>
         </users>
     <version>57.0</version>
 </Package>
