@@ -40,10 +40,29 @@
         <members>*</members>
         <name>AssignmentRules</name>
     </types>
-     <users>
-            
+    <types>
+     <members>*</members>
+     <name>PermissionSet</name>
+    </types>   
+     <types>
         <members>*</members>
-                    <name>User</name>
-        </users>
+        <name>Layout</name>
+    </types>  
+    <types>
+        <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+    <members>*</members>
+    <name>Community</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+<members>*</members>
+<name>EmailTemplate</name>
+</types>
     <version>57.0</version>
 </Package>

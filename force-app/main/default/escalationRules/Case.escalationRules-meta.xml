@@ -210,7 +210,7 @@
     </escalationRule>
     <escalationRule>
         <fullName>Support Case Escalation</fullName>
-        <active>true</active>
+        <active>false</active>
         <ruleEntry>
             <businessHours>Default</businessHours>
             <businessHoursSource>Static</businessHoursSource>

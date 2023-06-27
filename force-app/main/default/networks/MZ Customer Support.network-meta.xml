@@ -5,13 +5,13 @@
     <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
     <communityRoles/>
     <disableReputationRecordConversations>true</disableReputationRecordConversations>
-    <emailSenderAddress>skuckreja@mindzcloud.com</emailSenderAddress>
-    <emailSenderName>Customer Services</emailSenderName>
+    <emailSenderAddress>aaaajwy65tmpbfhn5tfwk2fei4@mindzcloud.slack.com</emailSenderAddress>
+    <emailSenderName>MZ Customer Support</emailSenderName>
     <enableApexCDNCaching>true</enableApexCDNCaching>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
     <enableExperienceBundleBasedSnaOverrideEnabled>true</enableExperienceBundleBasedSnaOverrideEnabled>
-    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestChatter>true</enableGuestChatter>
     <enableGuestFileAccess>true</enableGuestFileAccess>
     <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
     <enableImageOptimizationCDN>false</enableImageOptimizationCDN>
@@ -31,14 +31,7 @@
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
     <networkMemberGroups>
-        <permissionSet>Experience_Profile_Manager</permissionSet>
-        <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <permissionSet>Knowledge_LSF_Permission_Set</permissionSet>
-        <permissionSet>Knowledge_Read</permissionSet>
         <profile>admin</profile>
-        <profile>custom: support profile</profile>
-        <profile>customer community login user</profile>
-        <profile>customer community user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -47,17 +40,16 @@
         <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
-    <picassoSite>Customer_Services1</picassoSite>
-    <selfRegProfile>customer community user</selfRegProfile>
-    <selfRegistration>true</selfRegistration>
+    <picassoSite>MZ_Customer_Support1</picassoSite>
+    <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
-    <site>Customer_Services</site>
+    <site>MZ_Customer_Support</site>
     <siteArchiveStatus>NotArchived</siteArchiveStatus>
-    <status>Live</status>
+    <status>DownForMaintenance</status>
     <tabs>
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
-    <urlPathPrefix>CustomerServices</urlPathPrefix>
+    <urlPathPrefix>support</urlPathPrefix>
     <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
 </Network>
